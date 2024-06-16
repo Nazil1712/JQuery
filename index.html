@@ -11,7 +11,7 @@
     <h1>Hello World</h1>
     <p>This is paragraph <b>1</b> </p>
     <p>This is paragraph <b>2</b> </p>
-    <p>This is paragraph <b>3</b> </p>
+    <p id="kk">This is paragraph <b>3</b> </p>
     <p>This is paragraph <b>4</b> </p>
     <p>This is paragraph <b>5</b> </p>
 
@@ -24,8 +24,12 @@
         $('h1').hide()
     })
 
-    $('p').click(()=>{
-        $('p').hide()
+    $('p').click(function(){
+        console.log("You clicked on p")
+        // $('p').hide();
+        // $(this).hide();    // Clicked button will be hidden
+        // $('#id').hide();
+        // $('.class').hide();
     })
 </script>
 
