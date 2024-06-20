@@ -5,32 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQuery</title>
+    <style>
+        .text-red{
+            color: red;
+        }
+
+        .text-purple{
+            color: purple;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Hello World</h1>
-    <p>This is paragraph <b>1</b> </p>
-    <p>This is paragraph <b>2</b> </p>
-    <p id="kk">This is paragraph <b>3</b> </p>
-    <p>This is paragraph <b>4</b> </p>
-    <p>This is paragraph <b>5</b> </p>
+    <p class="text-red">This is paragraph <b>1</b> </p>
+    <p class="text-purple">This is paragraph <b>2</b> </p>
+    <p id="kk" class="text-red">This is paragraph <b>3</b> </p>
+    <p class="text-purple">This is paragraph <b>4</b> </p>
+    <p class="text-red">This is paragraph <b>5</b> </p>
 
 </body>
 <script src="js/jquery-3.7.1.min.js"></script>
-<script>
-    // $('h1').action() //jQuery Syntax
-
-    $('h1').click(()=>{
-        $('h1').hide()
-    })
-
-    $('p').click(function(){
-        console.log("You clicked on p")
-        // $('p').hide();
-        // $(this).hide();    // Clicked button will be hidden
-        // $('#id').hide();
-        // $('.class').hide();
-    })
-</script>
+<script src="./myjQuery.js"></script>
 
 </html>
