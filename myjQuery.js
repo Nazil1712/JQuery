@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     // $(Selector).action
     // $('h1').action() //jQuery Syntax
@@ -15,6 +14,32 @@ $(document).ready(function(){
         // $('#id').hide();
         // $('.class').hide();
     })
+
+    
+    // $('p').dblclick(function(){
+    //     console.log("You DOUBLE CLICKED ON P", this)
+    // })
+
+
+    // $('p').mouseenter(function(){
+    //     console.log("You enetered : ", this)
+    // })
+
+
+    // $('p').mouseleave(function(){
+    //     console.log("You leaved : ", this)
+    // })
+
+
+    // .hover takes two parameters, 1) For mouseEnter and 2) mouseleave
+    $('p').hover(function(){
+        console.log("You Entered")
+    }, function() {
+        console.log("You Leaved")
+    })
+
+
+
 
 
     /* 
@@ -35,5 +60,5 @@ $(document).ready(function(){
     // $('#kk').click()
 
 
-    $('*').click()
-})
+    // $('*').click()
+});
