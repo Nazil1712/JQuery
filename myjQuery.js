@@ -46,19 +46,40 @@ $(document).ready(function(){
     // })
 
 
-    $('p').on({
-        click:function(){
-            console.log("You clicked on p =>",this)
-        },
-        dblclick:function(){
-            console.log("You Double clicked =>", this)
-        },
-        mouseenter:function(){
-            console.log("You Entered mouse")
-        }
+    // $('p').on({
+    //     click:function(){
+    //         console.log("You clicked on p =>",this)
+    //     },
+    //     dblclick:function(){
+    //         console.log("You Double clicked =>", this)
+    //     },
+    //     mouseenter:function(){
+    //         console.log("You Entered mouse")
+    //     }
+    // })
+
+
+
+    // $('#wiki').hide(1000,function(){
+    //     console.log("Wiki is hidden")
+    // })
+    // $('#wiki').show(1000,function(){
+    //     console.log("Wiki is visible")
+    // })
+
+
+    $('#content').click(function(){
+        $('#wiki').toggle()
     })
 
 
+
+    // fadeIn()
+    // fadeOut()
+    // fadeToggle()
+    // fadeTo()
+
+    
 
 
 
