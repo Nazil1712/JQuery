@@ -68,9 +68,9 @@ $(document).ready(function(){
     // })
 
 
-    $('#content').click(function(){
-        $('#wiki').toggle()
-    })
+    // $('#content').click(function(){
+    //     $('#wiki').toggle()
+    // })
 
 
 
@@ -79,6 +79,20 @@ $(document).ready(function(){
     // fadeToggle()
     // fadeTo()
 
+
+    // $('#content').click(function(){
+    //     $('#wiki').fadeOut(1000)
+    // })
+
+
+    // $('#content').click(function(){
+    //     $('#wiki').fadeToggle(1000)
+    // })
+
+
+    // $('#content').click(function(){
+    //     $('#wiki').fadeTo(1000,0.1)
+    // })
     
 
 
