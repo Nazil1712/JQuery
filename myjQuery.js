@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // alert('jQuery loaded')
     // $(Selector).action
     // $('h1').action() //jQuery Syntax
 
@@ -73,6 +74,7 @@ $(document).ready(function(){
     // })
 
 
+    // ************************************* //
 
     // fadeIn()
     // fadeOut()
@@ -96,6 +98,17 @@ $(document).ready(function(){
     
 
 
+    // ************************************* //
+    // Slide
+
+    // $('#content').click(function(){
+    //     $('#wiki').slideToggle(10000,function(){
+    //         console.log("SlideToggle Called")
+    //     })
+    // })
+    
+
+    // ************************************* //
 
     /* 
     // We have three types of selectors in jQuery
@@ -116,4 +129,30 @@ $(document).ready(function(){
 
 
     // $('*').click()
+
+
+
+    // ******************* Animate ****************** //
+
+    // $('#content').click(function(){
+    //     $('#wiki').animate({
+    //         opacity: 0.5,
+    //         width: '350px',
+    //         height: '450px'
+    //     },1000);
+    // })
+
+
+    // $('#content').click(function(){
+    //     $('#wiki').animate({width:"200px"},4000)
+    //     $('#wiki').animate({opacity:0.2},4000)
+    //     $('#wiki').animate({width:"100px"},1000)
+    // })
+
+
+    // To stop animation, we can use => $('#wiki).stop()
+
+    $('#content').click(function(){
+        $('#wiki').text('Nazil N. Dhalwala')
+    })
 });

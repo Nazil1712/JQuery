@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of select2</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>This is demo of select2</h1>
+    <hr>
+    <select name="sports" id="sports">
+        <option value="select option" selected hidden>--Select Option--</option>
+        <option value="Soccer">Soccer</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Baseball">Baseball</option>
+        <option value="Cricket">Cricket</option>
+        <option value="Rugby">Rugby</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Golf">Golf</option>
+        <option value="Swimming">Swimming</option>
+        <option value="Volleyball">Volleyball</option>
+        <option value="Table Tennis">Table Tennis</option>
+        <option value="Badminton">Badminton</option>
+        <option value="Boxing">Boxing</option>
+        <option value="Cycling">Cycling</option>
+        <option value="Skiing">Skiing</option>
+        <option value="Snowboarding">Snowboarding</option>
+        <option value="Skateboarding">Skateboarding</option>
+        <option value="Surfing">Surfing</option>
+        <option value="Martial Arts">Martial Arts</option>
+        <option value="Gymnastics">Gymnastics</option>
+
+    </select>
+</body>
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        let sports = ["Soccer",
+            "Basketball",
+            "Tennis",
+            "Baseball",
+            "Cricket",
+            "Rugby",
+            "Hockey",
+            "Golf",
+            "Swimming",
+            "Volleyball",
+            "Table Tennis",
+            "Badminton",
+            "Boxing",
+            "Cycling",
+            "Skiing",
+            "Snowboarding",
+            "Skateboarding",
+            "Surfing",
+            "Martial Arts",
+            "Gymnastics"]
+
+        $("#sports").select2()
+    })
+
+
+
+</script>
+
+</html>
